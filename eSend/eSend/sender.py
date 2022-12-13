@@ -1,6 +1,4 @@
-import os
-import ssl
-import smtplib
+import os, ssl, smtplib
 from email.message import EmailMessage
 
 g_pass = os.getenv('G_APP_PASS')
